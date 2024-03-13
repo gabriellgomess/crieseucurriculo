@@ -1,0 +1,60 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-primary: #26A69A;
+  --color-secondary: #408d86;
+  --color-dark: #263339;
+  --color-light: #E0F2F1;
+}
+
+/* Remover estilo de listas e links */
+ul, li, a{
+  text-decoration: none;
+  list-style: none;
+}
+
+.color-bg-gradient {
+  background: linear-gradient(144deg, var(--color-primary) 35%, var(--color-secondary) 90%);
+}
+
+.color-bg-light{
+  background: var(--color-light)
+}
+
+.color-bg-primary{
+  background: var(--color-primary);
+}
+
+.color-bg-secondary{
+  background: var(--color-secondary);
+}
+
+.color-text-dark{
+  color: var(--color-dark);
+}
+
+.color-text-light{
+  color: var(--color-light);
+}
+
+.active-link{
+  color: var(--color-light) !important;
+}
+
+.ant-steps-item-title{
+  font-weight: bold; 
+  color: var(--color-light) !important
+}
+
+.ant-steps-item-description{
+  font-weight: bold;
+
+}
+
+.swal2-container{
+  font-family: Arial, Helvetica, sans-serif;
+}
